@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#f7f7f5"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #242424; }
+    .title { font-size: 30px; font-weight: 700; }
+    .head { font-size: 22px; font-weight: 700; }
+    .label { font-size: 18px; }
+    .muted { font-size: 17px; fill: #5f5f5b; }
+    .support { stroke: #2670a8; stroke-width: 3; stroke-dasharray: 10 7; }
+  </style>
+  <text x="60" y="60" class="title">同一根长下影线：等待下一日确认</text>
+
+  <rect x="55" y="95" width="340" height="500" rx="8" fill="#fff" stroke="#d8d8d2"/>
+  <text x="85" y="135" class="head">第一日：观察</text>
+  <line x1="85" y1="510" x2="365" y2="510" class="support"/>
+  <text x="90" y="538" class="label" fill="#2670a8">历史支撑 2.80</text>
+  <line x1="225" y1="205" x2="225" y2="485" stroke="#18765b" stroke-width="8"/>
+  <rect x="170" y="250" width="110" height="55" fill="#dff2ea" stroke="#18765b" stroke-width="6"/>
+  <text x="295" y="213" class="label">3.08 最高</text>
+  <text x="295" y="261" class="label">3.04 收盘</text>
+  <text x="295" y="308" class="label">3.00 开盘</text>
+  <text x="295" y="489" class="label">2.82 最低</text>
+  <text x="85" y="575" class="muted">假设：支撑附近出现承接</text>
+
+  <rect x="430" y="95" width="340" height="500" rx="8" fill="#fff" stroke="#d8d8d2"/>
+  <text x="460" y="135" class="head">走势 A：得到确认</text>
+  <line x1="460" y1="510" x2="740" y2="510" class="support"/>
+  <text x="465" y="538" class="label" fill="#2670a8">2.80 未被测试</text>
+  <line x1="525" y1="205" x2="525" y2="485" stroke="#9a9a94" stroke-width="7"/>
+  <rect x="490" y="250" width="70" height="55" fill="#f0f0ed" stroke="#777771" stroke-width="4"/>
+  <line x1="670" y1="165" x2="670" y2="290" stroke="#18765b" stroke-width="8"/>
+  <rect x="620" y="185" width="100" height="75" fill="#dff2ea" stroke="#18765b" stroke-width="6"/>
+  <line x1="590" y1="205" x2="735" y2="205" stroke="#18765b" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="465" y="575" class="muted">守住低点，突破 3.08 并高收</text>
+
+  <rect x="805" y="95" width="340" height="500" rx="8" fill="#fff" stroke="#d8d8d2"/>
+  <text x="835" y="135" class="head">走势 B：假设失效</text>
+  <line x1="835" y1="510" x2="1115" y2="510" class="support"/>
+  <text x="840" y="538" class="label" fill="#2670a8">跌破历史支撑 2.80</text>
+  <line x1="900" y1="205" x2="900" y2="485" stroke="#9a9a94" stroke-width="7"/>
+  <rect x="865" y="250" width="70" height="55" fill="#f0f0ed" stroke="#777771" stroke-width="4"/>
+  <line x1="1045" y1="245" x2="1045" y2="550" stroke="#b94b45" stroke-width="8"/>
+  <rect x="995" y="270" width="100" height="215" fill="#f7e2df" stroke="#b94b45" stroke-width="6"/>
+  <text x="840" y="575" class="muted">跌破 2.82，并在 2.80 下方收盘</text>
+
+  <text x="600" y="638" text-anchor="middle" class="label">关键不是猜中下一步，而是预先知道什么证据支持或否定当前假设。</text>
+</svg>
+

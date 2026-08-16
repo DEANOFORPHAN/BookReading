@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f7f7f5"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #242424; }
+    .title { font-size: 30px; font-weight: 700; }
+    .head { font-size: 21px; font-weight: 700; }
+    .label { font-size: 18px; }
+    .small { font-size: 16px; fill: #5d5d58; }
+    .grid { stroke: #ddddda; stroke-width: 1; }
+  </style>
+
+  <text x="60" y="58" class="title">支撑、阻力与成交量：看位置，也看参与程度</text>
+  <rect x="60" y="90" width="1080" height="420" rx="8" fill="#fff" stroke="#d8d8d2"/>
+
+  <line x1="100" y1="180" x2="1100" y2="180" class="grid"/>
+  <line x1="100" y1="300" x2="1100" y2="300" class="grid"/>
+  <line x1="100" y1="420" x2="1100" y2="420" class="grid"/>
+
+  <rect x="100" y="135" width="1000" height="55" fill="#f7e2df"/>
+  <text x="125" y="168" class="head" fill="#a53f3a">阻力区</text>
+  <text x="235" y="168" class="label">价格多次上涨到附近后受阻回落</text>
+
+  <rect x="100" y="405" width="1000" height="55" fill="#dff2ea"/>
+  <text x="125" y="440" class="head" fill="#126c52">支撑区</text>
+  <text x="235" y="440" class="label">价格多次下跌到附近后获得承接</text>
+
+  <polyline points="115,350 205,205 300,425 400,220 500,430 610,165 700,320 800,155 890,290 985,120 1080,175"
+    fill="none" stroke="#2b5f87" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="300" cy="425" r="10" fill="#18765b"/>
+  <circle cx="500" cy="430" r="10" fill="#18765b"/>
+  <circle cx="610" cy="165" r="10" fill="#b94b45"/>
+  <circle cx="800" cy="155" r="10" fill="#b94b45"/>
+  <path d="M 970 95 L 985 120 L 955 115 Z" fill="#2b5f87"/>
+  <text x="905" y="100" class="label" font-weight="700">放量突破</text>
+  <text x="765" y="490" class="small">支撑和阻力是区域，不是不可穿越的墙。</text>
+
+  <rect x="60" y="535" width="1080" height="135" rx="8" fill="#fff" stroke="#d8d8d2"/>
+  <text x="85" y="570" class="head">成交量</text>
+  <text x="185" y="570" class="label">每个时段内实际成交的股票或合约数量</text>
+  <line x1="90" y1="645" x2="1100" y2="645" stroke="#aaaaa4" stroke-width="2"/>
+  <rect x="120" y="615" width="45" height="30" fill="#9b9b95"/>
+  <rect x="205" y="595" width="45" height="50" fill="#9b9b95"/>
+  <rect x="290" y="620" width="45" height="25" fill="#9b9b95"/>
+  <rect x="375" y="585" width="45" height="60" fill="#9b9b95"/>
+  <rect x="460" y="605" width="45" height="40" fill="#9b9b95"/>
+  <rect x="545" y="570" width="45" height="75" fill="#6f8fa7"/>
+  <rect x="630" y="610" width="45" height="35" fill="#9b9b95"/>
+  <rect x="715" y="590" width="45" height="55" fill="#9b9b95"/>
+  <rect x="800" y="605" width="45" height="40" fill="#9b9b95"/>
+  <rect x="885" y="550" width="45" height="95" fill="#18765b"/>
+  <text x="950" y="605" class="small">柱越高，参与越多；</text>
+  <text x="950" y="630" class="small">不代表价格一定上涨。</text>
+</svg>
+

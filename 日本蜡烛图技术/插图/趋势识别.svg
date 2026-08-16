@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
+  <rect width="1280" height="760" fill="#f7f7f5"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #242424; }
+    .title { font-size: 30px; font-weight: 700; }
+    .head { font-size: 22px; font-weight: 700; }
+    .label { font-size: 17px; }
+    .small { font-size: 15px; fill: #62625d; }
+    .axis { stroke: #d9d9d4; stroke-width: 1; }
+    .up { stroke: #18765b; fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+    .down { stroke: #b94b45; fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+    .flat { stroke: #2b5f87; fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+    .guide { stroke: #9b9b95; stroke-width: 2; stroke-dasharray: 8 7; }
+    .confirm { fill: #18765b; }
+    .fail { fill: #b94b45; }
+  </style>
+
+  <text x="60" y="56" class="title">趋势识别：先看高点和低点，再看确认与失效</text>
+
+  <rect x="55" y="88" width="370" height="470" rx="8" fill="#fff" stroke="#d8d8d2"/>
+  <text x="82" y="128" class="head">上涨趋势</text>
+  <text x="82" y="158" class="label">高点抬高，低点也抬高</text>
+  <line x1="90" y1="470" x2="390" y2="470" class="axis"/>
+  <line x1="90" y1="205" x2="90" y2="470" class="axis"/>
+  <polyline points="105,415 155,335 205,380 255,285 305,330 365,230" class="up"/>
+  <circle cx="155" cy="335" r="8" class="confirm"/>
+  <circle cx="255" cy="285" r="8" class="confirm"/>
+  <circle cx="365" cy="230" r="8" class="confirm"/>
+  <circle cx="105" cy="415" r="8" fill="#6ea891"/>
+  <circle cx="205" cy="380" r="8" fill="#6ea891"/>
+  <circle cx="305" cy="330" r="8" fill="#6ea891"/>
+  <text x="170" y="328" class="small">高点 1</text>
+  <text x="270" y="278" class="small">高点 2</text>
+  <text x="268" y="352" class="small">低点抬高</text>
+  <line x1="205" y1="380" x2="305" y2="330" class="guide"/>
+  <text x="82" y="515" class="small">确认：突破前高后能站稳</text>
+  <text x="82" y="538" class="small">失效：跌破最近一个重要低点</text>
+
+  <rect x="455" y="88" width="370" height="470" rx="8" fill="#fff" stroke="#d8d8d2"/>
+  <text x="482" y="128" class="head">下跌趋势</text>
+  <text x="482" y="158" class="label">高点降低，低点也降低</text>
+  <line x1="490" y1="470" x2="790" y2="470" class="axis"/>
+  <line x1="490" y1="205" x2="490" y2="470" class="axis"/>
+  <polyline points="505,240 555,335 605,285 655,390 705,345 765,440" class="down"/>
+  <circle cx="505" cy="240" r="8" fill="#cc7b77"/>
+  <circle cx="605" cy="285" r="8" fill="#cc7b77"/>
+  <circle cx="705" cy="345" r="8" fill="#cc7b77"/>
+  <circle cx="555" cy="335" r="8" class="fail"/>
+  <circle cx="655" cy="390" r="8" class="fail"/>
+  <circle cx="765" cy="440" r="8" class="fail"/>
+  <text x="520" y="232" class="small">高点 1</text>
+  <text x="620" y="278" class="small">高点降低</text>
+  <text x="668" y="412" class="small">低点降低</text>
+  <line x1="605" y1="285" x2="705" y2="345" class="guide"/>
+  <text x="482" y="515" class="small">确认：跌破前低后反弹无力</text>
+  <text x="482" y="538" class="small">失效：重新突破最近一个重要高点</text>
+
+  <rect x="855" y="88" width="370" height="470" rx="8" fill="#fff" stroke="#d8d8d2"/>
+  <text x="882" y="128" class="head">横盘区间</text>
+  <text x="882" y="158" class="label">高低点反复停在相近区域</text>
+  <line x1="890" y1="470" x2="1190" y2="470" class="axis"/>
+  <line x1="890" y1="205" x2="890" y2="470" class="axis"/>
+  <rect x="900" y="245" width="280" height="175" fill="#eef4f8" stroke="#b6c8d5"/>
+  <line x1="900" y1="245" x2="1180" y2="245" class="guide"/>
+  <line x1="900" y1="420" x2="1180" y2="420" class="guide"/>
+  <text x="910" y="235" class="small">阻力区</text>
+  <text x="910" y="443" class="small">支撑区</text>
+  <polyline points="910,405 955,265 1008,405 1060,275 1110,410 1165,255" class="flat"/>
+  <text x="882" y="515" class="small">确认：带量突破区间并站稳</text>
+  <text x="882" y="538" class="small">失效：突破后快速回到区间内</text>
+
+  <rect x="55" y="595" width="1170" height="110" rx="8" fill="#fff" stroke="#d8d8d2"/>
+  <text x="85" y="635" class="head">使用顺序</text>
+  <text x="205" y="635" class="label">1. 标出最近两个高点和两个低点</text>
+  <text x="205" y="668" class="label">2. 判断趋势背景：上涨、下跌或横盘</text>
+  <text x="665" y="635" class="label">3. 给出确认条件和失效条件</text>
+  <text x="665" y="668" class="label">4. 再解释单根 K 线的多空心理</text>
+</svg>

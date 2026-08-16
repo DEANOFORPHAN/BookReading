@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+  <rect width="1200" height="640" fill="#f7f7f5"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #242424; }
+    .title { font-size: 30px; font-weight: 700; }
+    .label { font-size: 21px; }
+    .small { font-size: 18px; fill: #5a5a5a; }
+    .guide { stroke: #9b9b95; stroke-width: 2; stroke-dasharray: 7 7; }
+  </style>
+  <text x="60" y="62" class="title">一根 K 线：实体记录结果，影线记录尝试</text>
+
+  <rect x="70" y="100" width="500" height="460" rx="8" fill="#ffffff" stroke="#d8d8d2"/>
+  <text x="105" y="140" class="label" font-weight="700">阳线：收盘价高于开盘价</text>
+  <line x1="300" y1="175" x2="300" y2="500" stroke="#18765b" stroke-width="8"/>
+  <rect x="235" y="260" width="130" height="145" fill="#dff2ea" stroke="#18765b" stroke-width="6"/>
+  <line x1="365" y1="175" x2="500" y2="175" class="guide"/>
+  <line x1="365" y1="260" x2="500" y2="260" class="guide"/>
+  <line x1="365" y1="405" x2="500" y2="405" class="guide"/>
+  <line x1="365" y1="500" x2="500" y2="500" class="guide"/>
+  <text x="405" y="168" class="small">最高价</text>
+  <text x="405" y="253" class="small">收盘价</text>
+  <text x="405" y="398" class="small">开盘价</text>
+  <text x="405" y="493" class="small">最低价</text>
+  <text x="115" y="230" class="small">上影线</text>
+  <text x="115" y="340" class="small">实体</text>
+  <text x="115" y="470" class="small">下影线</text>
+
+  <rect x="630" y="100" width="500" height="460" rx="8" fill="#ffffff" stroke="#d8d8d2"/>
+  <text x="665" y="140" class="label" font-weight="700">阴线：收盘价低于开盘价</text>
+  <line x1="860" y1="175" x2="860" y2="500" stroke="#b94b45" stroke-width="8"/>
+  <rect x="795" y="260" width="130" height="145" fill="#f7e2df" stroke="#b94b45" stroke-width="6"/>
+  <line x1="925" y1="175" x2="1060" y2="175" class="guide"/>
+  <line x1="925" y1="260" x2="1060" y2="260" class="guide"/>
+  <line x1="925" y1="405" x2="1060" y2="405" class="guide"/>
+  <line x1="925" y1="500" x2="1060" y2="500" class="guide"/>
+  <text x="965" y="168" class="small">最高价</text>
+  <text x="965" y="253" class="small">开盘价</text>
+  <text x="965" y="398" class="small">收盘价</text>
+  <text x="965" y="493" class="small">最低价</text>
+  <text x="675" y="230" class="small">上影线</text>
+  <text x="675" y="340" class="small">实体</text>
+  <text x="675" y="470" class="small">下影线</text>
+
+  <text x="600" y="605" text-anchor="middle" class="small">软件配色可能相反，判断方向时看开盘价与收盘价的关系。</text>
+</svg>
+

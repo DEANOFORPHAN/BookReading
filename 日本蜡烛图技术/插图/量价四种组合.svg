@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f7f7f5"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #242424; }
+    .title { font-size: 30px; font-weight: 700; }
+    .head { font-size: 24px; font-weight: 700; }
+    .body { font-size: 19px; }
+    .small { font-size: 17px; fill: #5d5d58; }
+  </style>
+
+  <text x="60" y="58" class="title">量价四种组合：成交量调节信心，不单独决定方向</text>
+
+  <rect x="60" y="95" width="520" height="235" rx="8" fill="#e4f3ec" stroke="#bfdacd"/>
+  <text x="95" y="140" class="head" fill="#126c52">价格上涨 + 成交量放大</text>
+  <text x="95" y="185" class="body">更多成交参与上涨，价格信号更有分量。</text>
+  <text x="95" y="220" class="body">若发生在突破阻力时，通常是加分项。</text>
+  <text x="95" y="265" class="small">高位突然巨量但价格不再上涨时，要留意抛压。</text>
+  <path d="M485 260 L485 155 L455 185 M485 155 L515 185" fill="none" stroke="#18765b" stroke-width="9" stroke-linecap="round"/>
+
+  <rect x="620" y="95" width="520" height="235" rx="8" fill="#edf3f7" stroke="#c8d5de"/>
+  <text x="655" y="140" class="head" fill="#265e85">价格上涨 + 成交量缩小</text>
+  <text x="655" y="185" class="body">价格仍在上涨，但参与程度没有同步增强。</text>
+  <text x="655" y="220" class="body">可以有效，但信心较低，需要继续观察。</text>
+  <text x="655" y="265" class="small">不能仅凭“缩量上涨”断定马上下跌。</text>
+  <path d="M1045 260 L1045 170 L1015 200 M1045 170 L1075 200" fill="none" stroke="#477a9d" stroke-width="7" stroke-linecap="round"/>
+
+  <rect x="60" y="365" width="520" height="235" rx="8" fill="#f7e5e2" stroke="#e3c7c2"/>
+  <text x="95" y="410" class="head" fill="#a53f3a">价格下跌 + 成交量放大</text>
+  <text x="95" y="455" class="body">更多成交参与下跌，抛售或换手更激烈。</text>
+  <text x="95" y="490" class="body">若发生在跌破支撑时，风险信号更强。</text>
+  <text x="95" y="535" class="small">支撑区的恐慌巨量也可能接近短期宣泄点。</text>
+  <path d="M485 430 L485 535 L455 505 M485 535 L515 505" fill="none" stroke="#b94b45" stroke-width="9" stroke-linecap="round"/>
+
+  <rect x="620" y="365" width="520" height="235" rx="8" fill="#f0f0ed" stroke="#d3d3cd"/>
+  <text x="655" y="410" class="head">价格下跌 + 成交量缩小</text>
+  <text x="655" y="455" class="body">价格走弱，但参与下跌的成交没有扩大。</text>
+  <text x="655" y="490" class="body">可能是缓慢回调，也可能只是缺少买盘。</text>
+  <text x="655" y="535" class="small">仍须结合趋势和支撑位置，不能直接判定止跌。</text>
+  <path d="M1045 440 L1045 525 L1015 495 M1045 525 L1075 495" fill="none" stroke="#7d7d77" stroke-width="7" stroke-linecap="round"/>
+
+  <text x="600" y="660" text-anchor="middle" class="body" font-weight="700">先看价格在哪里、往哪走，再用成交量判断参与程度。</text>
+</svg>
+

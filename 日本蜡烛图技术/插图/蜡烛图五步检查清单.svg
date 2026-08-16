@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="820" viewBox="0 0 1280 820">
+  <rect width="1280" height="820" fill="#f7f7f5"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #242424; }
+    .title { font-size: 30px; font-weight: 700; }
+    .head { font-size: 22px; font-weight: 700; }
+    .label { font-size: 17px; }
+    .small { font-size: 15px; fill: #5f5f59; }
+    .box { fill: #fff; stroke: #d8d8d2; stroke-width: 2; }
+    .support { fill: #dff2ea; stroke: #18765b; }
+    .resist { fill: #f7e2df; stroke: #b94b45; }
+    .neutral { fill: #eef4f8; stroke: #2b5f87; }
+    .warn { fill: #fff4d8; stroke: #a67518; }
+    .line { stroke: #2b5f87; stroke-width: 6; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .dash { stroke: #787872; stroke-width: 2; stroke-dasharray: 8 7; }
+    .up { fill: #18765b; }
+    .down { fill: #b94b45; }
+    .vol { fill: #8b8b84; }
+    .arrow { stroke: #7b7b75; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7b7b75"/>
+    </marker>
+  </defs>
+
+  <text x="60" y="56" class="title">蜡烛图五步检查清单：先证据，后解释</text>
+
+  <rect x="55" y="90" width="750" height="500" rx="8" class="box"/>
+  <text x="85" y="130" class="head">示例情境：上涨趋势回调到支撑区</text>
+
+  <rect x="95" y="160" width="655" height="60" class="resist"/>
+  <text x="120" y="198" class="label">阻力区 12.00 附近：后续突破才算向上确认</text>
+  <rect x="95" y="430" width="655" height="60" class="support"/>
+  <text x="120" y="468" class="label">支撑区 10.50 附近：跌破并收不回则假设失效</text>
+
+  <line x1="105" y1="545" x2="735" y2="545" stroke="#d9d9d4"/>
+  <polyline points="115,430 180,330 245,390 315,270 390,335 455,250 525,455 590,370 675,280" class="line"/>
+  <circle cx="180" cy="330" r="8" class="up"/>
+  <circle cx="315" cy="270" r="8" class="up"/>
+  <circle cx="455" cy="250" r="8" class="up"/>
+  <circle cx="245" cy="390" r="8" fill="#6ea891"/>
+  <circle cx="390" cy="335" r="8" fill="#6ea891"/>
+  <circle cx="525" cy="455" r="8" fill="#6ea891"/>
+
+  <line x1="545" y1="300" x2="545" y2="455" stroke="#18765b" stroke-width="8"/>
+  <rect x="512" y="350" width="66" height="55" fill="#dff2ea" stroke="#18765b" stroke-width="5"/>
+  <text x="590" y="350" class="small">今日 K 线：</text>
+  <text x="590" y="374" class="small">下探支撑后收回</text>
+  <text x="590" y="398" class="small">只是假设，不是结论</text>
+
+  <line x1="455" y1="250" x2="675" y2="250" class="dash"/>
+  <text x="575" y="240" class="small">前高：11.60</text>
+  <line x1="525" y1="455" x2="735" y2="455" class="dash"/>
+  <text x="610" y="508" class="small">失效观察：跌破 10.50 支撑区</text>
+
+  <rect x="105" y="610" width="630" height="95" rx="8" class="box"/>
+  <text x="130" y="642" class="head">成交量只调节信心</text>
+  <rect x="135" y="674" width="28" height="25" class="vol"/>
+  <rect x="180" y="657" width="28" height="42" class="vol"/>
+  <rect x="225" y="681" width="28" height="18" class="vol"/>
+  <rect x="270" y="640" width="28" height="59" fill="#18765b"/>
+  <text x="330" y="674" class="label">放量突破或跌破关键位时，证据更强；</text>
+  <text x="330" y="699" class="label">没有明显放量时，降低信心并继续观察。</text>
+
+  <rect x="845" y="90" width="380" height="500" rx="8" class="box"/>
+  <text x="875" y="130" class="head">五步记录模板</text>
+
+  <rect x="875" y="165" width="320" height="55" rx="6" class="neutral"/>
+  <text x="895" y="199" class="label">1. 趋势：上涨 / 下跌 / 横盘</text>
+  <path d="M1035 224 L1035 248" class="arrow"/>
+  <rect x="875" y="255" width="320" height="55" rx="6" class="neutral"/>
+  <text x="895" y="289" class="label">2. 位置：接近支撑还是阻力</text>
+  <path d="M1035 314 L1035 338" class="arrow"/>
+  <rect x="875" y="345" width="320" height="55" rx="6" class="neutral"/>
+  <text x="895" y="379" class="label">3. K 线：实体、影线、收盘</text>
+  <path d="M1035 404 L1035 428" class="arrow"/>
+  <rect x="875" y="435" width="320" height="55" rx="6" class="warn"/>
+  <text x="895" y="469" class="label">4. 量能：参与程度是否加分</text>
+  <path d="M1035 494 L1035 518" class="arrow"/>
+  <rect x="875" y="525" width="320" height="55" rx="6" class="support"/>
+  <text x="895" y="559" class="label">5. 条件：确认与失效先写清</text>
+
+  <rect x="55" y="730" width="1170" height="55" rx="8" class="box"/>
+  <text x="80" y="765" class="label">纪律：蜡烛图是概率与情绪观察工具；任何形态都要结合趋势、成交量、支撑阻力和风险控制。</text>
+</svg>
