@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860">
+  <rect width="1280" height="860" fill="#f7f7f5"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #242424; }
+    .title { font-size: 30px; font-weight: 700; }
+    .head { font-size: 23px; font-weight: 700; }
+    .label { font-size: 17px; }
+    .small { font-size: 15px; fill: #5f5f59; }
+    .box { fill: #fff; stroke: #d8d8d2; stroke-width: 2; }
+    .support { fill: #dff2ea; stroke: #18765b; stroke-width: 2; }
+    .resist { fill: #f7e2df; stroke: #b94b45; stroke-width: 2; }
+    .confirm { fill: #e7f0f6; stroke: #2b5f87; stroke-width: 2; }
+    .warn { fill: #fff4d8; stroke: #a67518; stroke-width: 2; }
+    .trend { stroke: #73736d; stroke-width: 5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .wick { stroke: #242424; stroke-width: 6; }
+    .up { fill: #dff2ea; stroke: #18765b; stroke-width: 4; }
+    .down { fill: #f7e2df; stroke: #b94b45; stroke-width: 4; }
+    .guide { stroke: #85857f; stroke-width: 2; stroke-dasharray: 8 7; }
+  </style>
+
+  <text x="52" y="52" class="title">倒锤子线与流星线：外形相同，趋势背景相反</text>
+  <text x="900" y="50" class="small">绿色上涨，红色下跌</text>
+
+  <rect x="45" y="82" width="575" height="630" rx="8" class="box"/>
+  <text x="75" y="122" class="head">倒锤子线：明确下跌之后</text>
+  <text x="75" y="151" class="label">买方曾向上试探，但成果未保持到收盘</text>
+  <polyline points="90,205 150,250 210,230 270,310 330,290 385,385" class="trend"/>
+  <text x="90" y="190" class="small">此前趋势：高点、低点逐步降低</text>
+  <rect x="75" y="555" width="510" height="52" class="support"/>
+  <text x="92" y="588" class="label">支撑区 9.80-10.00</text>
+
+  <line x1="470" y1="340" x2="470" y2="545" class="wick"/>
+  <rect x="440" y="495" width="60" height="38" class="up"/>
+  <text x="320" y="440" class="small">长上影：盘中反攻</text>
+  <text x="505" y="350" class="small">最高价 10.45</text>
+  <text x="505" y="545" class="small">最低价 9.80</text>
+
+  <rect x="75" y="650" width="245" height="44" rx="6" class="confirm"/>
+  <text x="90" y="679" class="small">确认：收盘突破 10.45</text>
+  <rect x="335" y="650" width="250" height="44" rx="6" class="warn"/>
+  <text x="350" y="679" class="small">失效：跌破 9.80 且收不回</text>
+
+  <rect x="660" y="82" width="575" height="630" rx="8" class="box"/>
+  <text x="690" y="122" class="head">流星线：明确上涨之后</text>
+  <text x="690" y="151" class="label">买方推高后被卖方压回，高价遭到拒绝</text>
+  <polyline points="705,385 765,335 825,355 885,270 945,290 1000,205" class="trend"/>
+  <text x="705" y="415" class="small">此前趋势：高点、低点逐步抬高</text>
+  <rect x="690" y="170" width="510" height="52" class="resist"/>
+  <text x="707" y="203" class="label">阻力区 12.60-12.80</text>
+
+  <line x1="1090" y1="215" x2="1090" y2="455" class="wick"/>
+  <rect x="1060" y="395" width="60" height="38" class="down"/>
+  <text x="930" y="360" class="small">长上影：高价被拒绝</text>
+  <text x="1125" y="235" class="small">最高价 12.80</text>
+  <text x="1125" y="455" class="small">最低价 12.10</text>
+
+  <rect x="690" y="650" width="245" height="44" rx="6" class="warn"/>
+  <text x="705" y="679" class="small">确认：收盘跌破 12.10</text>
+  <rect x="950" y="650" width="250" height="44" rx="6" class="confirm"/>
+  <text x="965" y="679" class="small">失效：突破 12.80 并站稳</text>
+
+  <rect x="45" y="750" width="1190" height="72" rx="8" class="box"/>
+  <text x="70" y="780" class="head">共同结构</text>
+  <text x="210" y="780" class="label">小实体靠下 + 长上影（典型约为实体两倍以上）+ 很短或没有下影线。</text>
+  <text x="70" y="807" class="label">纪律：长上影只记录高价推进被压回；趋势决定名称，后续价格决定假设是否成立。</text>
+</svg>
