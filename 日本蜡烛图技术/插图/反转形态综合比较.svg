@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860">
+  <rect width="1280" height="860" fill="#f7f7f5"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #242424; }
+    .title { font-size: 30px; font-weight: 700; }
+    .head { font-size: 22px; font-weight: 700; }
+    .label { font-size: 17px; }
+    .small { font-size: 15px; fill: #5f5f59; }
+    .box { fill: #fff; stroke: #d8d8d2; stroke-width: 2; }
+    .support { fill: #dff2ea; stroke: #18765b; stroke-width: 2; }
+    .resist { fill: #f7e2df; stroke: #b94b45; stroke-width: 2; }
+    .confirm { fill: #e7f0f6; stroke: #2b5f87; stroke-width: 2; }
+    .warn { fill: #fff4d8; stroke: #a67518; stroke-width: 2; }
+    .line { stroke: #73736d; stroke-width: 4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .wick { stroke: #242424; stroke-width: 4; }
+    .up { fill: #dff2ea; stroke: #18765b; stroke-width: 3; }
+    .down { fill: #f7e2df; stroke: #b94b45; stroke-width: 3; }
+  </style>
+
+  <text x="52" y="50" class="title">反转形态综合比较：先看证据链，再决定是否命名</text>
+
+  <rect x="45" y="80" width="1190" height="230" rx="8" class="box"/>
+  <text x="72" y="116" class="head">四类结构记录的心理过程</text>
+  <rect x="72" y="140" width="260" height="125" rx="6" class="support"/>
+  <text x="92" y="170" class="head">低位反击</text>
+  <text x="92" y="202" class="label">锤子线 / 刺透</text>
+  <text x="92" y="228" class="label">看涨吞没</text>
+  <text x="92" y="253" class="small">下跌后买方收回或覆盖</text>
+  <rect x="352" y="140" width="260" height="125" rx="6" class="resist"/>
+  <text x="372" y="170" class="head">高位卖压</text>
+  <text x="372" y="202" class="label">上吊线 / 乌云盖顶</text>
+  <text x="372" y="228" class="label">看跌吞没</text>
+  <text x="372" y="253" class="small">上涨后卖方压回或覆盖</text>
+  <rect x="632" y="140" width="260" height="125" rx="6" class="warn"/>
+  <text x="652" y="170" class="head">原趋势收缩</text>
+  <text x="652" y="202" class="label">看涨孕线 / 看跌孕线</text>
+  <text x="652" y="228" class="label">第二根缩进母线</text>
+  <text x="652" y="253" class="small">犹豫，不等于接管</text>
+  <rect x="912" y="140" width="296" height="125" rx="6" class="confirm"/>
+  <text x="932" y="170" class="head">优先级</text>
+  <text x="932" y="202" class="label">趋势 → 位置 → 结构</text>
+  <text x="932" y="228" class="label">→ 成交量 → 确认/失效</text>
+  <text x="932" y="253" class="small">名称永远服从条件</text>
+
+  <rect x="45" y="335" width="575" height="385" rx="8" class="box"/>
+  <text x="72" y="372" class="head">示例 A：条件完整，保留假设</text>
+  <polyline points="80,455 145,500 205,475 270,560 330,535 380,610" class="line"/>
+  <text x="82" y="430" class="small">明确下跌趋势</text>
+  <rect x="75" y="610" width="510" height="42" class="support"/>
+  <text x="92" y="638" class="label">支撑区附近</text>
+  <line x1="430" y1="475" x2="430" y2="605" class="wick"/>
+  <rect x="402" y="500" width="56" height="35" class="up"/>
+  <line x1="430" y1="535" x2="430" y2="615" class="wick"/>
+  <text x="300" y="682" class="small">事实：长下影小实体</text>
+  <text x="300" y="704" class="small">若后续突破最高价，再提出锤子线假设</text>
+
+  <rect x="660" y="335" width="575" height="385" rx="8" class="box"/>
+  <text x="687" y="372" class="head">示例 B：条件缺失，退回描述</text>
+  <polyline points="695,500 760,460 825,495 890,455 955,490 1020,465 1090,500" class="line"/>
+  <text x="697" y="430" class="small">横盘区间，没有清楚趋势</text>
+  <line x1="1005" y1="470" x2="1005" y2="605" class="wick"/>
+  <rect x="978" y="490" width="54" height="34" class="up"/>
+  <line x1="1005" y1="524" x2="1005" y2="605" class="wick"/>
+  <rect x="690" y="610" width="510" height="42" class="warn"/>
+  <text x="707" y="638" class="label">只记录：长下影小实体，不强行命名</text>
+  <text x="707" y="682" class="small">伪形态不是“假的图”，而是关键条件不完整</text>
+
+  <rect x="45" y="750" width="1190" height="72" rx="8" class="box"/>
+  <text x="70" y="780" class="head">纪律</text>
+  <text x="165" y="780" class="label">条件不全就不急着起名字；确认提高概率，失效时及时放弃原假设。</text>
+  <text x="70" y="807" class="label">蜡烛图是概率与情绪观察工具，必须结合趋势、支撑阻力、成交量和风险控制。</text>
+</svg>

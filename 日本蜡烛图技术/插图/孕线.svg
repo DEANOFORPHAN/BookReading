@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860">
+  <rect width="1280" height="860" fill="#f7f7f5"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #242424; }
+    .title { font-size: 30px; font-weight: 700; }
+    .head { font-size: 23px; font-weight: 700; }
+    .label { font-size: 17px; }
+    .small { font-size: 15px; fill: #5f5f59; }
+    .box { fill: #fff; stroke: #d8d8d2; stroke-width: 2; }
+    .support { fill: #dff2ea; stroke: #18765b; stroke-width: 2; }
+    .resist { fill: #f7e2df; stroke: #b94b45; stroke-width: 2; }
+    .confirm { fill: #e7f0f6; stroke: #2b5f87; stroke-width: 2; }
+    .warn { fill: #fff4d8; stroke: #a67518; stroke-width: 2; }
+    .trend { stroke: #73736d; stroke-width: 5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .wick { stroke: #242424; stroke-width: 5; }
+    .up { fill: #dff2ea; stroke: #18765b; stroke-width: 4; }
+    .down { fill: #f7e2df; stroke: #b94b45; stroke-width: 4; }
+    .contain { stroke: #2b5f87; stroke-width: 3; fill: none; }
+  </style>
+
+  <text x="52" y="52" class="title">孕线：第一根大实体包含第二根小实体</text>
+  <text x="900" y="50" class="small">图示：绿色上涨，红色下跌</text>
+
+  <rect x="45" y="82" width="575" height="630" rx="8" class="box"/>
+  <text x="75" y="122" class="head">看涨孕线：明确下跌之后</text>
+  <text x="75" y="151" class="label">卖方推进从长实体突然收缩为内部小实体</text>
+  <polyline points="90,205 150,245 210,225 270,305 330,285 375,350" class="trend"/>
+  <text x="90" y="190" class="small">此前趋势：高点、低点逐步降低</text>
+
+  <rect x="75" y="555" width="510" height="52" class="support"/>
+  <text x="92" y="588" class="label">支撑区 9.80 附近</text>
+
+  <line x1="420" y1="335" x2="420" y2="535" class="wick"/>
+  <rect x="382" y="360" width="76" height="150" class="down"/>
+  <text x="285" y="388" class="small">母线：长阴线</text>
+
+  <line x1="525" y1="405" x2="525" y2="470" class="wick"/>
+  <rect x="495" y="420" width="60" height="34" class="up"/>
+  <text x="477" y="395" class="small">子线：小实体</text>
+  <path d="M470 360 h18 M470 360 v150 M470 510 h18" class="contain"/>
+  <text x="240" y="635" class="small">小实体完全位于母线实体内部：卖方动能收缩</text>
+
+  <rect x="75" y="650" width="245" height="44" rx="6" class="confirm"/>
+  <text x="90" y="679" class="small">强确认：突破母线高点 10.70</text>
+  <rect x="335" y="650" width="250" height="44" rx="6" class="warn"/>
+  <text x="350" y="679" class="small">失效：跌破母线低点 9.80</text>
+
+  <rect x="660" y="82" width="575" height="630" rx="8" class="box"/>
+  <text x="690" y="122" class="head">看跌孕线：明确上涨之后</text>
+  <text x="690" y="151" class="label">买方推进从长实体突然收缩为内部小实体</text>
+  <polyline points="705,350 765,300 825,320 885,240 945,260 995,195" class="trend"/>
+  <text x="705" y="380" class="small">此前趋势：高点、低点逐步抬高</text>
+
+  <rect x="690" y="170" width="510" height="52" class="resist"/>
+  <text x="707" y="203" class="label">阻力区 12.80 附近</text>
+
+  <line x1="1020" y1="230" x2="1020" y2="440" class="wick"/>
+  <rect x="982" y="255" width="76" height="155" class="up"/>
+  <text x="865" y="455" class="small">母线：长阳线</text>
+
+  <line x1="1125" y1="300" x2="1125" y2="375" class="wick"/>
+  <rect x="1095" y="315" width="60" height="36" class="down"/>
+  <text x="1073" y="400" class="small">子线：小实体</text>
+  <path d="M1070 255 h18 M1070 255 v155 M1070 410 h18" class="contain"/>
+  <text x="825" y="535" class="small">小实体完全位于母线实体内部：买方动能收缩</text>
+
+  <rect x="690" y="650" width="245" height="44" rx="6" class="warn"/>
+  <text x="705" y="679" class="small">强确认：跌破母线低点 11.90</text>
+  <rect x="950" y="650" width="250" height="44" rx="6" class="confirm"/>
+  <text x="965" y="679" class="small">失效：突破母线高点 12.80</text>
+
+  <rect x="45" y="740" width="1190" height="82" rx="8" class="box"/>
+  <text x="70" y="772" class="head">与吞没相反</text>
+  <text x="235" y="772" class="label">吞没：第二根扩大并覆盖第一根；孕线：第二根缩小并留在第一根实体内部。</text>
+  <text x="70" y="803" class="label">纪律：孕线表示原趋势犹豫，不代表对手方已经接管；必须等待价格确认并预设失效条件。</text>
+</svg>

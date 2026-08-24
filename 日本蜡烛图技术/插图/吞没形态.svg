@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860">
+  <rect width="1280" height="860" fill="#f7f7f5"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #242424; }
+    .title { font-size: 30px; font-weight: 700; }
+    .head { font-size: 23px; font-weight: 700; }
+    .label { font-size: 17px; }
+    .small { font-size: 15px; fill: #5f5f59; }
+    .box { fill: #ffffff; stroke: #d8d8d2; stroke-width: 2; }
+    .support { fill: #dff2ea; stroke: #18765b; stroke-width: 2; }
+    .resist { fill: #f7e2df; stroke: #b94b45; stroke-width: 2; }
+    .confirm { fill: #e7f0f6; stroke: #2b5f87; stroke-width: 2; }
+    .warn { fill: #fff4d8; stroke: #a67518; stroke-width: 2; }
+    .trend { stroke: #73736d; stroke-width: 5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .guide { stroke: #85857f; stroke-width: 2; stroke-dasharray: 8 7; }
+    .wick { stroke: #242424; stroke-width: 5; }
+    .up { fill: #dff2ea; stroke: #18765b; stroke-width: 4; }
+    .down { fill: #f7e2df; stroke: #b94b45; stroke-width: 4; }
+    .brace { stroke: #2b5f87; stroke-width: 3; fill: none; }
+  </style>
+
+  <text x="52" y="52" class="title">吞没形态：第二根实体反向覆盖第一根实体</text>
+  <text x="900" y="50" class="small">图示：绿色上涨，红色下跌</text>
+
+  <rect x="45" y="82" width="575" height="630" rx="8" class="box"/>
+  <text x="75" y="122" class="head">看涨吞没：明确下跌之后</text>
+  <text x="75" y="151" class="label">卖方延续失败，买方反向覆盖前一日实体</text>
+
+  <polyline points="90,205 150,245 210,225 270,305 330,285 375,350" class="trend"/>
+  <text x="90" y="190" class="small">此前趋势：高点、低点逐步降低</text>
+
+  <rect x="75" y="555" width="510" height="52" class="support"/>
+  <text x="92" y="588" class="label">支撑区 10.00 附近</text>
+
+  <line x1="405" y1="350" x2="405" y2="510" class="wick"/>
+  <rect x="380" y="385" width="50" height="80" class="down"/>
+  <text x="292" y="410" class="small">第 1 根</text>
+  <text x="292" y="432" class="small">小阴线</text>
+
+  <line x1="505" y1="325" x2="505" y2="565" class="wick"/>
+  <rect x="472" y="350" width="66" height="170" class="up"/>
+  <text x="545" y="410" class="small">第 2 根</text>
+  <text x="545" y="432" class="small">大阳线</text>
+
+  <path d="M550 350 h20 M570 350 v170 M550 520 h20" class="brace"/>
+  <text x="260" y="635" class="small">上涨实体完整覆盖前一根下跌实体</text>
+  <line x1="505" y1="325" x2="575" y2="325" class="guide"/>
+  <text x="440" y="315" class="small">最高价 10.65</text>
+  <line x1="505" y1="565" x2="575" y2="565" class="guide"/>
+  <text x="460" y="552" class="small">最低价 9.95</text>
+
+  <rect x="75" y="650" width="245" height="44" rx="6" class="confirm"/>
+  <text x="90" y="679" class="small">确认：收盘突破 10.65</text>
+  <rect x="335" y="650" width="250" height="44" rx="6" class="warn"/>
+  <text x="350" y="679" class="small">失效：跌破 9.95 且收不回</text>
+
+  <rect x="660" y="82" width="575" height="630" rx="8" class="box"/>
+  <text x="690" y="122" class="head">看跌吞没：明确上涨之后</text>
+  <text x="690" y="151" class="label">买方延续失败，卖方反向覆盖前一日实体</text>
+
+  <polyline points="705,350 765,300 825,320 885,240 945,260 995,195" class="trend"/>
+  <text x="705" y="380" class="small">此前趋势：高点、低点逐步抬高</text>
+
+  <rect x="690" y="170" width="510" height="52" class="resist"/>
+  <text x="707" y="203" class="label">阻力区 12.40 附近</text>
+
+  <line x1="1020" y1="230" x2="1020" y2="390" class="wick"/>
+  <rect x="995" y="260" width="50" height="80" class="up"/>
+  <text x="970" y="425" class="small">第 1 根：小阳线</text>
+
+  <line x1="1120" y1="215" x2="1120" y2="475" class="wick"/>
+  <rect x="1087" y="235" width="66" height="180" class="down"/>
+  <text x="1080" y="500" class="small">第 2 根：大阴线</text>
+
+  <path d="M1075 235 h-20 M1055 235 v180 M1075 415 h-20" class="brace"/>
+  <text x="790" y="535" class="small">下跌实体完整覆盖前一根上涨实体</text>
+  <line x1="1120" y1="215" x2="1190" y2="215" class="guide"/>
+  <text x="1085" y="205" class="small">最高价 12.48</text>
+  <line x1="1120" y1="475" x2="1190" y2="475" class="guide"/>
+  <text x="1082" y="462" class="small">最低价 11.90</text>
+
+  <rect x="690" y="650" width="245" height="44" rx="6" class="warn"/>
+  <text x="705" y="679" class="small">确认：收盘跌破 11.90</text>
+  <rect x="950" y="650" width="250" height="44" rx="6" class="confirm"/>
+  <text x="965" y="679" class="small">失效：突破 12.48 并站稳</text>
+
+  <rect x="45" y="740" width="1190" height="82" rx="8" class="box"/>
+  <text x="70" y="772" class="head">识图重点</text>
+  <text x="210" y="772" class="label">比较开盘与收盘形成的实体；不要求第二根上下影线也覆盖第一根全部影线。</text>
+  <text x="70" y="803" class="label">纪律：吞没记录控制权转换，但必须结合趋势、位置、成交量、后续确认、失效与风险控制。</text>
+</svg>

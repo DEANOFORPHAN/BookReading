@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860">
+  <rect width="1280" height="860" fill="#f7f7f5"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #242424; }
+    .title { font-size: 30px; font-weight: 700; }
+    .head { font-size: 23px; font-weight: 700; }
+    .label { font-size: 17px; }
+    .small { font-size: 15px; fill: #5f5f59; }
+    .box { fill: #fff; stroke: #d8d8d2; stroke-width: 2; }
+    .support { fill: #dff2ea; stroke: #18765b; stroke-width: 2; }
+    .resist { fill: #f7e2df; stroke: #b94b45; stroke-width: 2; }
+    .confirm { fill: #e7f0f6; stroke: #2b5f87; stroke-width: 2; }
+    .warn { fill: #fff4d8; stroke: #a67518; stroke-width: 2; }
+    .trend { stroke: #73736d; stroke-width: 5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .guide { stroke: #85857f; stroke-width: 2; stroke-dasharray: 8 7; }
+    .mid { stroke: #2b5f87; stroke-width: 3; stroke-dasharray: 10 7; }
+    .wick { stroke: #242424; stroke-width: 5; }
+    .up { fill: #dff2ea; stroke: #18765b; stroke-width: 4; }
+    .down { fill: #f7e2df; stroke: #b94b45; stroke-width: 4; }
+  </style>
+
+  <text x="52" y="52" class="title">刺透形态与乌云盖顶：用第一根实体中点衡量反攻</text>
+  <text x="904" y="50" class="small">图示：绿色上涨，红色下跌</text>
+
+  <rect x="45" y="82" width="575" height="630" rx="8" class="box"/>
+  <text x="75" y="122" class="head">刺透形态：明确下跌之后</text>
+  <text x="75" y="151" class="label">第二根上涨收盘超过第一根下跌实体中点</text>
+  <polyline points="90,205 150,245 210,225 270,305 330,285 375,350" class="trend"/>
+  <text x="90" y="190" class="small">此前趋势：高点、低点逐步降低</text>
+
+  <rect x="75" y="555" width="510" height="52" class="support"/>
+  <text x="92" y="588" class="label">支撑区 9.80 附近</text>
+
+  <line x1="415" y1="340" x2="415" y2="520" class="wick"/>
+  <rect x="382" y="365" width="66" height="150" class="down"/>
+  <text x="285" y="390" class="small">第 1 根长阴线</text>
+  <line x1="365" y1="440" x2="560" y2="440" class="mid"/>
+  <text x="205" y="430" class="small">实体中点 10.30</text>
+
+  <line x1="515" y1="405" x2="515" y2="565" class="wick"/>
+  <rect x="482" y="415" width="66" height="125" class="up"/>
+  <text x="470" y="390" class="small">第 2 根上涨</text>
+  <text x="220" y="635" class="small">收盘 10.40，越过中点但未完全吞没</text>
+
+  <rect x="75" y="650" width="245" height="44" rx="6" class="confirm"/>
+  <text x="90" y="679" class="small">确认：收盘突破 10.45</text>
+  <rect x="335" y="650" width="250" height="44" rx="6" class="warn"/>
+  <text x="350" y="679" class="small">失效：跌破 9.75 且收不回</text>
+
+  <rect x="660" y="82" width="575" height="630" rx="8" class="box"/>
+  <text x="690" y="122" class="head">乌云盖顶：明确上涨之后</text>
+  <text x="690" y="151" class="label">第二根下跌收盘跌破第一根上涨实体中点</text>
+  <polyline points="705,350 765,300 825,320 885,240 945,260 995,195" class="trend"/>
+  <text x="705" y="380" class="small">此前趋势：高点、低点逐步抬高</text>
+
+  <rect x="690" y="170" width="510" height="52" class="resist"/>
+  <text x="707" y="203" class="label">阻力区 12.70 附近</text>
+
+  <line x1="1020" y1="235" x2="1020" y2="435" class="wick"/>
+  <rect x="987" y="260" width="66" height="150" class="up"/>
+  <text x="900" y="455" class="small">第 1 根长阳线</text>
+  <line x1="960" y1="335" x2="1185" y2="335" class="mid"/>
+  <text x="795" y="325" class="small">实体中点 12.30</text>
+
+  <line x1="1120" y1="220" x2="1120" y2="475" class="wick"/>
+  <rect x="1087" y="245" width="66" height="125" class="down"/>
+  <text x="1060" y="500" class="small">第 2 根下跌</text>
+  <text x="850" y="535" class="small">收盘 12.20，跌破中点但未完全吞没</text>
+
+  <rect x="690" y="650" width="245" height="44" rx="6" class="warn"/>
+  <text x="705" y="679" class="small">确认：收盘跌破 12.10</text>
+  <rect x="950" y="650" width="250" height="44" rx="6" class="confirm"/>
+  <text x="965" y="679" class="small">失效：突破 12.75 并站稳</text>
+
+  <rect x="45" y="740" width="1190" height="82" rx="8" class="box"/>
+  <text x="70" y="772" class="head">识图重点</text>
+  <text x="210" y="772" class="label">中点判断看第二根收盘，不看影线；完整覆盖第一根实体则升级为吞没形态。</text>
+  <text x="70" y="803" class="label">纪律：形态只记录控制权变化，仍须结合趋势、位置、成交量、后续确认、失效与风险控制。</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860">
+  <rect width="1280" height="860" fill="#f7f7f5"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #242424; }
+    .title { font-size: 30px; font-weight: 700; }
+    .head { font-size: 22px; font-weight: 700; }
+    .label { font-size: 17px; }
+    .small { font-size: 15px; fill: #5f5f59; }
+    .box { fill: #fff; stroke: #d8d8d2; stroke-width: 2; }
+    .support { fill: #dff2ea; stroke: #18765b; stroke-width: 2; }
+    .resist { fill: #f7e2df; stroke: #b94b45; stroke-width: 2; }
+    .warn { fill: #fff4d8; stroke: #a67518; stroke-width: 2; }
+    .confirm { fill: #e7f0f6; stroke: #2b5f87; stroke-width: 2; }
+    .line { stroke: #73736d; stroke-width: 4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .wick { stroke: #242424; stroke-width: 4; }
+    .up { fill: #dff2ea; stroke: #18765b; stroke-width: 3; }
+    .down { fill: #f7e2df; stroke: #b94b45; stroke-width: 3; }
+    .mid { stroke: #2b5f87; stroke-width: 3; stroke-dasharray: 9 7; }
+  </style>
+
+  <text x="52" y="50" class="title">本周复习：形态结构 + 位置背景 + 后续验证</text>
+
+  <rect x="45" y="80" width="1190" height="200" rx="8" class="box"/>
+  <text x="72" y="116" class="head">形态速查</text>
+  <rect x="72" y="140" width="250" height="105" rx="6" class="support"/>
+  <text x="92" y="171" class="head">低位反击</text>
+  <text x="92" y="201" class="label">锤子线 / 刺透</text>
+  <text x="92" y="227" class="label">看涨吞没</text>
+  <rect x="342" y="140" width="250" height="105" rx="6" class="resist"/>
+  <text x="362" y="171" class="head">高位卖压</text>
+  <text x="362" y="201" class="label">上吊线 / 乌云盖顶</text>
+  <text x="362" y="227" class="label">看跌吞没</text>
+  <rect x="612" y="140" width="250" height="105" rx="6" class="warn"/>
+  <text x="632" y="171" class="head">原趋势收缩</text>
+  <text x="632" y="201" class="label">看涨孕线 / 看跌孕线</text>
+  <text x="632" y="227" class="label">先犹豫，后确认</text>
+  <rect x="882" y="140" width="326" height="105" rx="6" class="confirm"/>
+  <text x="902" y="171" class="head">检查顺序</text>
+  <text x="902" y="201" class="label">趋势 → 位置 → K 线</text>
+  <text x="902" y="227" class="label">→ 成交量 → 确认/失效</text>
+
+  <rect x="45" y="310" width="575" height="400" rx="8" class="box"/>
+  <text x="72" y="347" class="head">进入支撑，不等于支撑有效</text>
+  <polyline points="85,430 150,470 210,450 275,525 335,500 390,590" class="line"/>
+  <text x="85" y="405" class="small">下跌趋势</text>
+  <rect x="75" y="570" width="510" height="48" class="support"/>
+  <text x="92" y="601" class="label">支撑区 9.80-10.20</text>
+  <line x1="430" y1="490" x2="430" y2="640" class="wick"/>
+  <rect x="404" y="510" width="52" height="34" class="up"/>
+  <text x="300" y="665" class="small">进入后长下影：只提出承接假设</text>
+  <rect x="75" y="675" width="510" height="25" rx="4" class="warn"/>
+  <text x="92" y="694" class="small">跌破 9.80 且收不回：支撑失效</text>
+
+  <rect x="660" y="310" width="575" height="400" rx="8" class="box"/>
+  <text x="687" y="347" class="head">突破阻力，观察角色转换</text>
+  <polyline points="700,590 760,545 820,565 880,475 940,500 1000,410" class="line"/>
+  <text x="700" y="625" class="small">上涨趋势</text>
+  <rect x="690" y="385" width="510" height="48" class="resist"/>
+  <text x="707" y="416" class="label">阻力区 12.00-12.30</text>
+  <line x1="1035" y1="405" x2="1035" y2="540" class="wick"/>
+  <rect x="1008" y="425" width="54" height="76" class="up"/>
+  <text x="845" y="550" class="small">放量突破：参与度加分</text>
+  <rect x="690" y="570" width="510" height="48" class="confirm"/>
+  <text x="707" y="601" class="label">收盘站稳其上：原阻力可能转为支撑</text>
+  <text x="707" y="665" class="small">放量不能单独证明突破有效，仍看收盘和后续站稳</text>
+
+  <rect x="45" y="750" width="1190" height="72" rx="8" class="box"/>
+  <text x="70" y="780" class="head">复习结论</text>
+  <text x="205" y="780" class="label">先看有没有资格命名，再看证据是否确认；任何形态都保留失效条件。</text>
+  <text x="70" y="807" class="label">蜡烛图是概率与情绪观察工具，必须结合趋势、支撑阻力、成交量和风险控制。</text>
+</svg>

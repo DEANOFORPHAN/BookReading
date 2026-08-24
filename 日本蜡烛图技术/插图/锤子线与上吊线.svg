@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860">
+  <rect width="1280" height="860" fill="#f7f7f5"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #242424; }
+    .title { font-size: 30px; font-weight: 700; }
+    .head { font-size: 23px; font-weight: 700; }
+    .label { font-size: 17px; }
+    .small { font-size: 15px; fill: #5f5f59; }
+    .box { fill: #ffffff; stroke: #d8d8d2; stroke-width: 2; }
+    .support { fill: #dff2ea; stroke: #18765b; stroke-width: 2; }
+    .resist { fill: #f7e2df; stroke: #b94b45; stroke-width: 2; }
+    .confirm { fill: #e7f0f6; stroke: #2b5f87; stroke-width: 2; }
+    .warn { fill: #fff4d8; stroke: #a67518; stroke-width: 2; }
+    .trend { stroke: #73736d; stroke-width: 5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .guide { stroke: #85857f; stroke-width: 2; stroke-dasharray: 8 7; }
+    .wick { stroke: #242424; stroke-width: 6; }
+    .body-up { fill: #dff2ea; stroke: #18765b; stroke-width: 4; }
+    .body-warn { fill: #fff4d8; stroke: #a67518; stroke-width: 4; }
+  </style>
+
+  <text x="54" y="52" class="title">锤子线与上吊线：外形相同，趋势背景不同</text>
+
+  <rect x="45" y="82" width="575" height="625" rx="8" class="box"/>
+  <text x="75" y="122" class="head">锤子线：出现在明确下跌之后</text>
+  <text x="75" y="152" class="label">含义：低位曾被卖方压低，但买方把价格拉回</text>
+
+  <polyline points="90,205 155,255 220,235 285,320 350,300 415,395 475,370" class="trend"/>
+  <text x="92" y="190" class="small">此前趋势：高点、低点逐步降低</text>
+  <path d="M430 335 L475 370 L435 390" fill="none" stroke="#73736d" stroke-width="4"/>
+
+  <rect x="78" y="535" width="505" height="52" class="support"/>
+  <text x="95" y="567" class="label">支撑区 9.80 附近</text>
+
+  <line x1="470" y1="405" x2="470" y2="553" class="wick"/>
+  <rect x="442" y="420" width="56" height="38" class="body-up"/>
+  <line x1="470" y1="395" x2="470" y2="420" class="wick"/>
+  <text x="365" y="615" class="small">最低价 9.80</text>
+  <line x1="470" y1="553" x2="470" y2="595" class="guide"/>
+  <text x="505" y="418" class="small">最高价 10.28</text>
+  <line x1="500" y1="407" x2="565" y2="407" class="guide"/>
+
+  <rect x="78" y="646" width="238" height="43" rx="6" class="confirm"/>
+  <text x="92" y="674" class="small">确认：收盘突破 10.28</text>
+  <rect x="330" y="646" width="253" height="43" rx="6" class="warn"/>
+  <text x="344" y="674" class="small">失效：跌破 9.80 且收不回</text>
+
+  <rect x="660" y="82" width="575" height="625" rx="8" class="box"/>
+  <text x="690" y="122" class="head">上吊线：出现在明确上涨之后</text>
+  <text x="690" y="152" class="label">含义：高位出现过明显下探，卖压风险开始暴露</text>
+
+  <polyline points="705,390 770,335 835,355 900,270 965,290 1030,205 1095,230" class="trend"/>
+  <text x="705" y="420" class="small">此前趋势：高点、低点逐步抬高</text>
+  <path d="M1050 198 L1095 230 L1050 244" fill="none" stroke="#73736d" stroke-width="4"/>
+
+  <rect x="693" y="170" width="505" height="52" class="resist"/>
+  <text x="710" y="202" class="label">阻力区 12.30-12.40</text>
+
+  <line x1="1080" y1="226" x2="1080" y2="390" class="wick"/>
+  <rect x="1052" y="238" width="56" height="38" class="body-warn"/>
+  <line x1="1080" y1="220" x2="1080" y2="238" class="wick"/>
+  <text x="955" y="444" class="small">最低价 11.80</text>
+  <line x1="1080" y1="390" x2="1080" y2="425" class="guide"/>
+  <text x="1114" y="238" class="small">最高价 12.35</text>
+
+  <rect x="693" y="535" width="245" height="54" rx="6" class="warn"/>
+  <text x="707" y="558" class="small">确认：先跌破实体；</text>
+  <text x="707" y="579" class="small">跌破 11.80 则证据更强</text>
+  <rect x="952" y="535" width="246" height="54" rx="6" class="confirm"/>
+  <text x="966" y="558" class="small">失效：强势突破 12.35</text>
+  <text x="966" y="579" class="small">并站稳阻力区上方</text>
+
+  <rect x="45" y="735" width="1190" height="85" rx="8" class="box"/>
+  <text x="70" y="768" class="head">共同结构</text>
+  <text x="235" y="768" class="label">小实体靠上 + 长下影线（典型约为实体两倍以上）+ 很短或没有上影线</text>
+  <text x="70" y="800" class="label">纪律：形态只是概率警报；结合趋势、位置、成交量和后续确认，并提前写清失效与风险条件。</text>
+</svg>
